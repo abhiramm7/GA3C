@@ -83,8 +83,8 @@ class Config:
     IMAGE_HEIGHT = 84
 
     # Total number of episodes and annealing frequency
-    EPISODES = 40
-    ANNEALING_EPISODE_COUNT = 40
+    EPISODES = 400000
+    ANNEALING_EPISODE_COUNT = 400000
 
     # Entropy regualrization hyper-parameter
     BETA_START = 0.01
